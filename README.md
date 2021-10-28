@@ -24,7 +24,7 @@ Resolución del TPO:
     a. hasta un máximo de 640px de ancho de pantalla
     b. entre 640px y 1280px de ancho de pantalla
     c. más de 1280px de ancho de pantalla
-6. Se utilizó una animación en los títulos principales <h1> de cada sección del sitio y con un hover sobre los botones de la barra de navegación.
+6. Se utilizó una animación en los títulos principales: tag h1 de cada sección del sitio y con un hover sobre los botones de la barra de navegación.
 7. En index.html, la clase contenedor del div principal del body se aplicó la maquetación flex
 8. Se utilizó bootstrap en los componentes del formulario de la página contacto.html
-9. 
+9. Subido en el repositorio de github: https://willymiller.github.io/mimbreriagorriti/
