@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mimbrería Marcovecchio Hnas.</title>
     <link rel="icon" type="image/png" href="/img/favicon.png">
-    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="/js/apps.js"></script>
 </head>
 <body>
@@ -28,18 +28,38 @@
             </nav>
         </header>
         <main>
-            <h1 class="anim">Mimbrería Marcovecchio Hnas.</h1>
-            <h3>Artesanías en Mimbre</h3>
-            <h5> <strong>FUNDADA EN 1950</strong></h5>
-            <p>Somos descendientes de una familia italiana que inmigró al país a principios del siglo XX, plenos de sueños e
-                ilusiones.</p>
-            <p>Liborio, padre y fundador de la firma fue quien empezó vendiendo canastas y sillas, en un carro tirado a
-                caballo que circulaba entre los barrios de Las Cañitas y Retiro, hasta que en el año 1945 ancló en Palermo y
-                abrió su local en la calle Gorriti 5630.</p>
-            <p>Desde hace muchos años, las hermanas Marcovecchio, sus herederas, atienden el local, lugar favorito de
-                productoras, arquitectos y decoradores que acuden en búsqueda de soluciones en mimbre ratán o caña para sus
-                mas variados proyectos, cautivados por la personalidad de estas mujeres que ya cuentan con mas de 80 años.
-            </p>
+            <h1 class="anim">Contáctenos</h1>
+            <div class="contacto">
+                <form action="" class="formulario" id="formulario">
+                        <div class="form-group mb-3">
+                            <h6>* Dato obligatorio</h6>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text far fa-address-card"></span>
+                                <input class="form-control" type="text" name="ContactoNombre" id="ContactoNombre" placeholder="Nombre:">
+                            </div>
+                        </div><br>
+                        <div class="form-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fas fa-phone"></span>
+                                <input class="form-control" type="text" name="ContactoCelular" id="ContactoCelular" placeholder="Celular: ">
+                            </div>
+                        </div><br>
+                        <div class="form-group mb-3">
+                            <h6>* Dato obligatorio</h6>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fas fa-envelope"></span>
+                                <input class="form-control" type="email" name="ContactoEmail" id="ContactoEmail" placeholder="Correo electrónico: ">
+                            </div>
+                        </div><br>
+                        <div class="form-group mb-3">
+                            <h6>* Dato obligatorio</h6>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fas fa-file"></span>
+                                <input class="form-control" type="text" name="ContactoConsulta" id="ContactoConsulta" placeholder="Ingrese su consulta: ">
+                            </div>
+                        </div>
+                        <input type="submit" value="Enviar" class="button" id="submit" />
+                </form>
         </main>
         <footer>
             <div class="grid">
@@ -59,3 +79,4 @@
     </div>
 </body>
 </html>
+
